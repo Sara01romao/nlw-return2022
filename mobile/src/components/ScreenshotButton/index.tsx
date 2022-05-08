@@ -21,6 +21,7 @@ export  function ScreenshotButton({screeshot, onTakeShot, onRemoveShot}:Props) {
         style={styles.container}
         onPress={screeshot ? onRemoveShot : onTakeShot}
     >
+       
         {
             screeshot
             ?
